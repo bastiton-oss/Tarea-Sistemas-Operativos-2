@@ -5,8 +5,8 @@
 #include <thread>
 #include <vector>
 
-#include "control_rw.h"
-#include "control_atomico_rw.h"
+#include "../R4/control_rw.h"
+#include "controlAtomico_rw.h"
 
 struct Registro {
     long version= 0;
